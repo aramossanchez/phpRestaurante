@@ -1,5 +1,4 @@
 <?php
-
 include '../../template/Header/header.php';
 ?>
 <div class="container">
@@ -12,8 +11,8 @@ include '../../template/Header/header.php';
                 <input type="email" class="form-control" id="correo-login" name="correo" placeholder="Correo">
             </div>
             <div class="form-group">
-                <label for="contraseña">Contraseña de usuario:</label>
-                <input type="password" class="form-control" id="contraseña-login" name="contraseña" placeholder="Contraseña">
+                <label for="clave">Contraseña de usuario:</label>
+                <input type="password" class="form-control" id="clave-login" name="clave" placeholder="clave">
             </div>
             <div><a href="../RecuperarContraseña/RecuperarContraseña.php">No recuerdo mi contraseña</a></div>
             <input type="submit" class="next btn btn-info" value="LOGIN">
@@ -23,5 +22,4 @@ include '../../template/Header/header.php';
 </div>
 <?php
 include '../../template/Footer/footer.php';
-
 ?>
