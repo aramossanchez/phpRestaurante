@@ -7,4 +7,3 @@ function conectar(){
     }
     return $mysqli;
 }
-mysql://b4e8baf17e1d4d:69588d94@eu-cdbr-west-01.cleardb.com/heroku_79f32450b0f48e1?reconnect=true
