@@ -2,7 +2,7 @@
 include '../../template/Header/header.php';
 ?>
 <div class="container">
-    <h1>LOGI DE USUARIO</h1>
+    <h1>LOGIN DE USUARIO</h1>
     <form action="detalles_usuario.php" method="post">
         <fieldset>
             <h2>Credenciales de acceso</h2>

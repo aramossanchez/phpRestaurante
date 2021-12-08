@@ -1,3 +1,3 @@
 <?php
-header('Location: ./pages/Login/Login.php');
+header('Location: https://php-restaurante-geekshubs.herokuapp.com/pages/Login/Login.php');
 ?>
