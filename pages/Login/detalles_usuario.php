@@ -1,5 +1,5 @@
 <?php
-include '../../template/Header/header.php';
+include '../../template/Header/Header.php';
 ?>
 
 <?php
@@ -26,5 +26,5 @@ echo '</div>';
 ?>
 
 <?php
-include '../../template/Footer/footer.php';
+include '../../template/Footer/Footer.php';
 ?>

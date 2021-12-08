@@ -1,6 +1,6 @@
 <?php
 //MOSTRAMOS HEADERS
-include '../../template/Header/header.php';
+include '../../template/Header/Header.php';
 
 //CONEXION CON BBDD
 require '../../database/dbconnect.php';
@@ -20,7 +20,7 @@ while($reg=$resultado->fetch_assoc()){
 echo "</ol>";
 
 //MOSTRAMOS FOOTER
-include '../../template/Footer/footer.php';
+include '../../template/Footer/Footer.php';
 
 
 ?>

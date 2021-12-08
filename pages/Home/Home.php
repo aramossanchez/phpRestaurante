@@ -1,6 +1,6 @@
 <?php
 
-include '../../template/Header/header.php';
+include '../../template/Header/Header.php';
 require '../../database/dbconnect.php';
 $mysqli = conectar();
 
@@ -39,7 +39,7 @@ echo "</ol class='list-group'>
 
 
 <?php
-include '../../template/Footer/footer.php';
+include '../../template/Footer/Footer.php';
 
 ?>
 

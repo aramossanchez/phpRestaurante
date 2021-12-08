@@ -1,6 +1,6 @@
 <?php
 //MOSTRAMOS HEADER
-include '../../template/Header/header.php';
+include '../../template/Header/Header.php';
 //CONEXIÓN CON LA BASE DE DATOS
 require '../../database/dbconnect.php';
 $mysqli = conectar();
@@ -18,6 +18,6 @@ echo "</ul>";
 echo '</div>';
 
 //MOSTRAMOS FOOTER
-include '../../template/Footer/footer.php';
+include '../../template/Footer/Footer.php';
 
 ?>

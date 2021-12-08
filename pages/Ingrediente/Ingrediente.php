@@ -1,6 +1,6 @@
 <?php
 //MOSTRAMOS HEADER
-include '../../template/Header/header.php';
+include '../../template/Header/Header.php';
 //CONEXION CON BBDD
 require '../../database/dbconnect.php';
 $mysqli = conectar();
@@ -18,7 +18,7 @@ $mysqli = conectar();
 // echo "</ol class='list-group'>";
 
 //MOSTRAMOS FOOTER
-include '../../template/Footer/footer.php';
+include '../../template/Footer/Footer.php';
 
 
 ?>

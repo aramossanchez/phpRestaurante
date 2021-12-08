@@ -1,5 +1,5 @@
 <?php
-include '../../template/Header/header.php';
+include '../../template/Header/Header.php';
 ?>
 <div class="container">
     <h1>Recuperar contraseña</h1>
@@ -24,6 +24,6 @@ include '../../template/Header/header.php';
     
 </div>
 <?php
-include '../../template/Footer/footer.php';
+include '../../template/Footer/Footer.php';
 
 ?>
