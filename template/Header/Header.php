@@ -25,9 +25,9 @@ echo '<!DOCTYPE html>
         
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="../../pages/Home/home.php">Home</a></li>
-            <li><a href="../../pages/Login/login.php">Login</a></li>
-            <li><a href="../../pages/Register/register.php">Registro</a></li>
+            <li><a href="../../pages/Home/Home.php">Home</a></li>
+            <li><a href="../../pages/Login/Login.php">Login</a></li>
+            <li><a href="../../pages/Register/Register.php">Registro</a></li>
         </ul>
     </div>
 </nav>
