@@ -17,7 +17,7 @@ include '../../template/Header/header.php';
                 </div>
                 <div class="form-group">
                     <label for="titulo">Contraseña del usuario:</label>
-                    <input type="password" class="form-control" id="contraseña-registro" name="contraseña" placeholder="Título">
+                    <input type="password" class="form-control" id="clave-registro" name="clave" placeholder="Título">
                 </div>
                 <input type="submit"class="next btn btn-info" value="CREAR USUARIO">
             </fieldset>

@@ -14,7 +14,7 @@ echo '<ol class="list-group">';
 while ($reg = $resultado->fetch_assoc()) {
 
     echo '<li class="list-group-item">';
-    echo '<a class="list-group-item list-group-item-action" href="http://localhost/dev/phprestaurante/pages/Plato/detalle.php?id=' . $reg['id'] . '&titulo=' . $reg['titulo'] . '">' . $reg['titulo'] . '</a>';
+    echo '<a class="list-group-item list-group-item-action" href="../Plato/detalle.php?id=' . $reg['id'] . '&titulo=' . $reg['titulo'] . '">' . $reg['titulo'] . '</a>';
     echo '</li>';
 }
 echo '</ol>
@@ -27,7 +27,7 @@ echo " <h1 class='home-h1'>Lista de ingredientes</h1>
 <ol class='list-group'>";
 while ($reg = $resultado->fetch_assoc()) {
     echo "<li class='list-group-item'>";
-    echo '<a class="list-group-item list-group-item-action" href="http://localhost/dev/phprestaurante/pages/Ingrediente/detalle.php?id=' . $reg['id'] . '&nombre=' . $reg['nombre'] . '&cantidad=' . $reg['cantidad'] . '">' . $reg['nombre'] . '</a>';
+    echo '<a class="list-group-item list-group-item-action" href="../Ingrediente/detalle.php?id=' . $reg['id'] . '&nombre=' . $reg['nombre'] . '&cantidad=' . $reg['cantidad'] . '">' . $reg['nombre'] . '</a>';
 
     echo "</li>";
 }
