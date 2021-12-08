@@ -11,6 +11,6 @@ if(!$usuario){
     include '../../template/Footer/footer.php';
 }else{
     $resultado = $mysqli->query("UPDATE usuarios SET clave='".$_POST["clave"]."' WHERE (nombre ='".$_POST["nombre"]."' AND correo = '".$_POST["correo"]."')");
-    header('Location: ./pages/Login/Login.php');
+    header('Location: ../Login/Login.php');
 }
 ?>

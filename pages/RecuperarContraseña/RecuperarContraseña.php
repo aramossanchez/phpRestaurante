@@ -1,5 +1,5 @@
 <?php
-include '../../template/Header/Header.php';
+include '../../template/Header/header.php';
 ?>
 <div class="container">
     <h1>Recuperar contraseña</h1>
